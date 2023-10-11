@@ -4,7 +4,7 @@ A user configuration template for [AstroNvim](https://github.com/AstroNvim/Astro
 
 ## 🛠️ Installation
 
-#### Make a backup of your current nvim and shared folder
+#### Make a remove of your current nvim and shared folder
 
 ```shell
 rm -rf ~/.config/nvim ~/.config/nvim
