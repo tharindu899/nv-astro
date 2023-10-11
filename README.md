@@ -11,9 +11,6 @@ rm -rf ~/.config/nvim ~/.config/nvim
 rm -rf ~/.local/share/nvim ~/.local/share/nvim
 rm -rf ~/.local/state/nvim ~/.local/state/nvim
 rm -rf ~/.cache/nvim ~/.cache/nvim
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-rm -rf ~/.config/nvim/.git
-nvim
 ```
 
 #### Clone AstroNvim
