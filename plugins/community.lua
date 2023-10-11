@@ -6,4 +6,13 @@ return {
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.color.twilight-nvim" },
+  { import = "astrocommunity.bars-and-lines.bufferline-nvim" }, --a
+  --{ import = "astrocommunity.bars-and-lines.feline-nvim"},
+  { import = "astrocommunity.indent.mini-indentscope" },
+  { import = "astrocommunity.indent.indent-tools-nvim" },
+  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  -- { import = "astrocommunity/completion/cmp-cmdline" },
+  -- { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  -- { import = "astrocommunity/file-explorer/mini-files" },
 }
