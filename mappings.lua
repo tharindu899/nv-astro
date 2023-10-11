@@ -31,10 +31,13 @@ return {
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- quick exit
+    ["<C-q>"] = { ":q!<cr>", desc = "quick" },
+    ["<C-n>"] = { ":Neotree current<cr>", desc ="folder current" },
   },
   t = {
     -- setting a mapping to false will disable it
-    -- ["<esc>"] = false,
+    ["<esc>"] = false,
   },
 }
